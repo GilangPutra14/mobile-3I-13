@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 28
     testOptions.unitTests.includeAndroidResources = true
     defaultConfig {
         applicationId "org.aplas.basicappx"
         minSdkVersion 21
-        targetSdkVersion 31
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         buildConfigField "int", "MIN_SDK_VERSION", "$minSdkVersion.apiLevel"
